@@ -23,6 +23,8 @@ try {
     $categories = [
         'Comments about candy' => [
             '/\bcand(?:y|ies)\b/i',
+            '/\bsmarties\b/i',
+            '/\bbit[\s-]*o[\s-]*honey\b/i',
         ],
 
         'Comments about call me / don\'t call me' => [
