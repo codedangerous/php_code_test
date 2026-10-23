@@ -29,6 +29,15 @@ try {
 
         'Comments about call me / don\'t call me' => [
             '/\bcall\s+me\b/i',
+            '/\bdon[\'’]?t\s+call\b/i',
+            '/\bdo\s+not\s+call\b/i',
+            '/\bplease\s+call\b/i',
+            '/\bplz\s+call\b/i',
+            '/\bno\s+(?:phone\s+)?calls?\b/i',
+            '/\bno\s+phone\s+calls?\b/i',
+            '/\bconfirmation\s+call\b/i',
+            '/\bcall\s+if\b/i',
+            '/\bfeel\s+free\s+to\s+call\b/i',
         ],
 
         'Comments about who referred me' => [
