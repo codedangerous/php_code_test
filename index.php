@@ -47,6 +47,8 @@ try {
 
         'Comments about signature requirements upon delivery' => [
             '/\bsignature\b/i',
+            '/\bcan(not)?\s+sign\b/i',
+            '/\bwill\s+sign\b/i',
         ],
     ];
 
